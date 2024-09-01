@@ -1,0 +1,24 @@
+{
+  "name": "qa_automation_assignment",
+  "version": "1.0.0",
+  "description": "Repository created for QA Engineer Automation Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "naukri:test":"npx cypress run --spec 'cypress/e2e/tests/Naukri/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanmuk009/QA_Automation_Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanmuk009/QA_Automation_Assignment/issues"
+  },
+  "homepage": "https://github.com/shanmuk009/QA_Automation_Assignment#readme",
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "cypress-file-upload": "^5.0.8"
+  }
+}

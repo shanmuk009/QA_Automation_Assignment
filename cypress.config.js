@@ -1,12 +1,14 @@
+const cypress = require("cypress");
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   pageLoadTimeout: 90000,
   defaultCommandTimeout:9000,
   chromeWebSecurity:false,
-  //reporter: mocha,
+  reporter:'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
+      require('cypress-mochawesome-reporter/plugin')(on)
       let amazonText = '';
       let flipkartText = '';
 
@@ -29,5 +31,5 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
-  browser:'Chrome'
+  
 });

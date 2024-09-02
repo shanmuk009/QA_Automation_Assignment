@@ -20,6 +20,7 @@ describe("Handle Basic auth headers in cypress", () => {
         cy.BasicAuthLogin("https://authenticationtest.com/HTTPAuth/",'user','pass')
         cy.contains("Login Success").should('be.visible')
     })
+    
     it("Approach4-Login In using basic authentication-env variables ", () => {
         cy.BasicAuthLogin("https://authenticationtest.com/HTTPAuth/",
             Cypress.env("credentials").username,Cypress.env("credentials").password)

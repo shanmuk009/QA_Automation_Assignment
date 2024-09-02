@@ -1,5 +1,4 @@
 describe("Handle Basic auth headers in cypress", () => {
-
     it("Approach1-Login In using basic authentication ", () => {
         cy.visit("https://authenticationtest.com/HTTPAuth/",
             {

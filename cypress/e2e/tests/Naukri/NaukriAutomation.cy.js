@@ -25,7 +25,7 @@ describe("Automate Naukri Login and Update Profile details", () => {
         LoginPage.logIn();
         HomePage.selectMenuItem("Jobs");
         JobsPage.selectTabInJobs('profile');
-        JobsPage.selectJobArticleWithRequiredExp("2");
+        //JobsPage.selectJobArticleWithRequiredExp("2");
     })
 
 

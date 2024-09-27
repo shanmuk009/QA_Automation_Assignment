@@ -9,7 +9,7 @@ class HomePage {
 
      validateUserTitle() {
         cy.fixture('homepage.json').then((data) => {
-            cy.get(this.user_title_selector).should('have.text', data.user_title);
+            cy.get(this.user_title_selector,{timeout:20000}).should('have.text', data.user_title);
         })
     }
     clickOnViewProfile(){

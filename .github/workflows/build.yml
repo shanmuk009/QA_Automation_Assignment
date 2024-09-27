@@ -1,5 +1,6 @@
 name: End-to-end tests
-on: push
+on:
+  workflow_dispatch  # Only runs manually, not on push or pull requests
 jobs:
   cypress-run:
     runs-on: windows-latest

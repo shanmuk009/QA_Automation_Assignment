@@ -1,6 +1,6 @@
 class HomePage {
 
-    user_title_selector = ".name-wrapper div"
+    user_title_selector = ".user-details-inner .name-wrapper div"
     prof_img_selector = "img[alt='naukri user profile img']"
     logout_link_selector = "a[data-type='logoutLink']"
     view_profile_selector=".view-profile-wrapper a"

@@ -8,6 +8,7 @@ module.exports = defineConfig({
   reporter:'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
+      console.log('Node events are set up');
       require('cypress-mochawesome-reporter/plugin')(on)
       let amazonText = '';
       let flipkartText = '';

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "naukri:test": "npx cypress run --spec 'cypress/e2e/tests/Naukri/*'"
+    "naukri:test": "npx cypress run --spec 'cypress/e2e/tests/Naukri/*' --headless"
   },
   "repository": {
     "type": "git",

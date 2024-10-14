@@ -1,7 +1,7 @@
 
 class ProfilePage {
     resumeHeadingAfterdelete = "70% of recruiters discover candidates through their resume"
-    resumename = "shanmuka_QA_Sep2024.pdf"
+    resumename = "Shanmuka_QA_Resume_OCT2024.pdf"
     upload_file_selector = "input[type='file']#attachCV"
     resume_name_selector = ".resume-name-inline>div"
     delete_icon_selector = "i[data-title='delete-resume']"

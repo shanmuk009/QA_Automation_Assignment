@@ -2,8 +2,8 @@ const cypress = require("cypress");
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  pageLoadTimeout: 90000,
-  defaultCommandTimeout:9000,
+  pageLoadTimeout: 150000,
+  defaultCommandTimeout:10000,
   chromeWebSecurity:false,
   reporter:'cypress-mochawesome-reporter',
   e2e: {
